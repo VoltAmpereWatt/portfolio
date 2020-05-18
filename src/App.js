@@ -33,8 +33,11 @@ class App extends React.Component {
               name={'Rahul Ramachandran'} />
           </div>
         </div>
+        <div className={'section-header title-text'}>Work</div>
         <Work />
+        <div className={'section-header title-text'}>Academics</div>
         <AllSchools />
+        <div className={'section-header title-text'}>Projects and Skills</div>
         <AllProjects />
       </div>
     </div>)
