@@ -15,8 +15,12 @@ function Project(props) {
 function AllProjects(props) {
   return (
     <div id={'projects'} className={'grid-flex'}>
+      <Project class={'card project margins paddings'} title={'Makeover Mondays'} url={'https://public.tableau.com/profile/rahulrmchndrn#!/'}
+        skills={['Tableau, Data Analytics, Feature Engineering']} />
       <Project class={'card project margins paddings'} title={'Photo Viewer'} url={'https://github.com/VoltAmpereWatt/Photo-Viewer'}
         skills={['React', 'CSS', 'JavaScript', 'HTML', 'Node.js', 'MongoDB', 'Express.js', 'AWS S3']} />
+      <Project class={'card project margins paddings'} title={'Exercise Tracker'} url={'https://github.com/VoltAmpereWatt/Exercise-Tracker'}
+        skills={['React', 'CSS', 'JavaScript', 'HTML', 'Node.js', 'MongoDB', 'Express.js']} />
       <Project class={'card project margins paddings'} title={'Personal Website'} url={'https://github.com/VoltAmpereWatt/portfolio'}
         skills={['React', 'CSS', 'JavaScript', 'HTML', 'Node.js']} />
       <Project class={'card project margins paddings'} title={'Tracker'} skills={['Django', 'React', 'HTML', 'CSS', 'Javascript', 'MySQL']} />

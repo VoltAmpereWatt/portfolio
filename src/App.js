@@ -15,21 +15,21 @@ class App extends React.Component {
       <div id={'content'}>
         <div id={'social-media'} className={'sticky-header'}>
           <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="github"
-            iconColor="rgba(47,79,79,1)" backgroundColor="rgba(0,0,0,0)" iconSize="5"
-            roundness="49%" url="https://github.com/voltamperewatt" size="50" />
+            iconColor="white" backgroundColor="#0c7bdc" iconSize="4"
+            roundness="20%" url="https://github.com/voltamperewatt" size="40" />
           <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="linkedin"
-            iconColor="rgba(47,79,79,1)" backgroundColor="rgba(0,0,0,0)" iconSize="5"
-            roundness="49%" url="https://linkedin.com/in/rahulrmchndrn" size="50" />
+            iconColor="white" backgroundColor="#0c7bdc" iconSize="4"
+            roundness="20%" url="https://linkedin.com/in/rahulrmchndrn" size="40" />
           <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="instagram"
-            iconColor="rgba(47,79,79,1)" backgroundColor="rgba(0,0,0,0)" iconSize="5"
-            roundness="49%" url="https://instagram.com/rahulkacamera" size="50" />
+            iconColor="white" backgroundColor="#0c7bdc" iconSize="4"
+            roundness="20%" url="https://instagram.com/rahulkacamera" size="40" />
           <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0" borderStyle="solid" icon="mail"
-            iconColor="rgba(47,79,79,1)" backgroundColor="rgba(0,0,0,0)" iconSize="5"
-            roundness="20%" url="mailto:rahul.ramachandran@nyu.edu" size="50" />
+            iconColor="white" backgroundColor="#0c7bdc" iconSize="4"
+            roundness="20%" url="mailto:rahul.ramachandran@nyu.edu" size="40" />
         </div>
         <div id={'Intro'}>
           <div id={'header'} className={'title-text margins'}>
-            <Intro class={'text-accent'} roles={['graduate student', 'web developer', 'aspiring data scientist']}
+            <Intro class={'text-accent'} roles={['web developer', 'aspiring data scientist']}
               name={'Rahul Ramachandran'} />
           </div>
         </div>

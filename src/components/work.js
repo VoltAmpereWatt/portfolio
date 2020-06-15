@@ -14,7 +14,7 @@ function Role (props) {
     <div className={props.class}>
       <div>
         <p className={'header1'}>{props.role_name}</p>
-        <p className={'header2 text-accent'}>{props.org} [{props.years}]</p>
+        <p className={'header2 text-accent'}>{props.org} ({props.years})</p>
       </div>
       <div>
         <ul>
@@ -30,7 +30,7 @@ class Work extends React.Component {
   render () {
     return (<div id={'work'} className={'grid-flex'}>
       <Role class={'card work'} role_name={'Student Web Developer'} org={'New York University'} 
-      years={'Oct 2018 - Present'} responsibilites={responsibilities.fitl}/>
+      years={'Oct 2018 - May 2020'} responsibilites={responsibilities.fitl}/>
       <Role class={'card work'} role_name={'Sharepoint Developer'} org={'New York City Department of Finance'} 
       years={'Jun 2019 - Aug 2019'} responsibilites={responsibilities.nycdof}/>
     </div>
