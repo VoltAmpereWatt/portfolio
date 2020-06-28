@@ -14,7 +14,7 @@ function Role (props) {
     <div className={props.class}>
       <div>
         <p className={'header1'}>{props.role_name}</p>
-        <p className={'header2 text-accent'}>{props.org} ({props.years})</p>
+        <p className={'header2 text-accent'}>{props.org} ({props.years})  </p>
       </div>
       <div>
         <ul>
